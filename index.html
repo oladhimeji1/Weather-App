@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/small.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="weather-app">
+        <div class="container">
+            <h3 class="brand">The weather</h3>
+            <div>
+                <div><h3 id="xx"></h3></div>
+                <h3 class="temp">16&#176;</h3><br><br>
+                <div class="city-time">
+                    <h1 class="name">Nigeria</h1>
+                    <small>
+                        <span class="time">06:09</span>
+                        -
+                        <span class="date">
+                            Monday Sept 19
+                        </span>
+                    </small>
+                </div>
+                <div class="weather">
+                    <img src="icons/weather.png" alt="icon" width="50" height="50" class="icon">
+                    <span class="conditon">Cloudy</span>
+                </div>
+            </div>
+        </div>
+        <div class="panel">
+            <form action="" id="locationInput">
+                <input type="text" placeholder="Search Location..." class="search">
+                <button class="submit" type="submit"><i class="fa fa-search"></i></button>
+            </form>
+            <ul class="cities">
+                <li class="city">Lagos</li>
+                <li class="city">Abuja</li>
+                <li class="city">Lokoja</li>
+            </ul>
+            <ul class="details">
+                <h4>Weather Details</h4>
+                <li>
+                    <span>Cloudy</span>
+                    <span class="cloud">89%</span>
+                </li>
+                <li>
+                    <span>Humidity</span>
+                    <span class="humidity">64%</span>
+                </li>
+                <li>
+                    <span>Wind</span>
+                    <span class="wind">5km/h</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
